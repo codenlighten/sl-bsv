@@ -31,7 +31,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codenlighten/sl-bsv-fork"
+    "url": "https://github.com/codenlighten/sl-bsv.git"
   },
   "dependencies": {
     "bsv": "1.5",
