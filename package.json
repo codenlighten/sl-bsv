@@ -1,0 +1,48 @@
+{
+  "name": "sl-bsv",
+  "version": "1.0.0",
+  "description": "Security-enhanced fork of bsv@1.5 with improved elliptic curve implementation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js",
+    "build": "node scripts/build.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "bsv",
+    "bitcoin",
+    "fork",
+    "security",
+    "crypto",
+    "elliptic",
+    "smartledger"
+  ],
+  "author": {
+    "name": "SmartLedger Solutions",
+    "email": "developer@smartledger.solutions",
+    "url": "https://smartledger.solutions"
+  },
+  "contributors": [
+    {
+      "name": "codenlighten",
+      "url": "https://github.com/codenlighten"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codenlighten/sl-bsv-fork"
+  },
+  "dependencies": {
+    "bsv": "1.5",
+    "elliptic": "^6.5.5",
+    "bn.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "chai": "^4.3.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
