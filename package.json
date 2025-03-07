@@ -1,48 +1,31 @@
 {
   "name": "sl-bsv",
-  "version": "1.0.0",
-  "description": "Security-enhanced fork of bsv@1.5 with improved elliptic curve implementation",
+  "version": "1.1.0",
+  "description": "Security-enhanced BSV library with restored BSV wordlist compatibility",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha test/**/*.test.js",
-    "build": "node scripts/build.js",
-    "prepublishOnly": "npm test"
+    "build": "node scripts/build.js"
   },
   "keywords": [
     "bsv",
     "bitcoin",
-    "fork",
-    "security",
-    "crypto",
-    "elliptic",
-    "smartledger"
+    "bitcoin-sv",
+    "mnemonic",
+    "wordlist",
+    "security"
   ],
-  "author": {
-    "name": "SmartLedger Solutions",
-    "email": "developer@smartledger.solutions",
-    "url": "https://smartledger.solutions"
-  },
-  "contributors": [
-    {
-      "name": "codenlighten",
-      "url": "https://github.com/codenlighten"
-    }
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/codenlighten/sl-bsv.git"
-  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "bn.js": "^5.2.1",
     "bsv": "1.5",
     "elliptic": "^6.5.5",
-    "bn.js": "^5.2.1"
+    "pbkdf2": "^3.1.2",
+    "unorm": "^1.6.0"
   },
   "devDependencies": {
-    "mocha": "^10.0.0",
-    "chai": "^4.3.7"
-  },
-  "engines": {
-    "node": ">=14.0.0"
+    "chai": "^4.3.7",
+    "mocha": "^10.0.0"
   }
 }
