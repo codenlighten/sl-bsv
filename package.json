@@ -1,6 +1,6 @@
 {
   "name": "sl-bsv",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Security-enhanced BSV library with restored BSV wordlist compatibility",
   "main": "src/index.js",
   "scripts": {
